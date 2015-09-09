@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
         <development version="5100" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7702"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -680,7 +680,7 @@
                             <button toolTip="Enter/Exit Fullscreen" id="549">
                                 <rect key="frame" x="370" y="31" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="bevel" title="toggleFullScreen" bezelStyle="regularSquare" image="enterfullscreen" imagePosition="only" alignment="left" alternateImage="exitfullscreen" imageScaling="axesIndependently" inset="2" id="550">
+                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="enterfullscreen" imagePosition="overlaps" alignment="left" alternateImage="exitfullscreen" imageScaling="axesIndependently" inset="2" id="550">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -691,7 +691,7 @@
                             <button toolTip="Toggle Fillscreen" id="558">
                                 <rect key="frame" x="334" y="30" width="24" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="bevel" title="toggleFillScreen" bezelStyle="regularSquare" image="fillscreen_ub" imagePosition="only" alignment="center" alternateImage="exitfillscreen_ub" state="on" imageScaling="axesIndependently" inset="2" id="559">
+                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="fillscreen_ub" imagePosition="overlaps" alignment="center" alternateImage="exitfillscreen_ub" state="on" imageScaling="axesIndependently" inset="2" id="559">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -710,7 +710,7 @@
                             <button toolTip="toggle Mute" id="571">
                                 <rect key="frame" x="14" y="33" width="18" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="bevel" title="VolumeButton" bezelStyle="regularSquare" image="vol_mid" imagePosition="only" alignment="left" alternateImage="mute" imageScaling="axesIndependently" inset="2" id="572">
+                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="vol_mid" imagePosition="overlaps" alignment="left" alternateImage="mute" imageScaling="axesIndependently" inset="2" id="572">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -843,7 +843,7 @@
                                     <button toolTip="Play/Pause" id="553">
                                         <rect key="frame" x="56" y="2" width="24" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <buttonCell key="cell" type="bevel" title="togglePlayPause" bezelStyle="regularSquare" image="play" imagePosition="only" alignment="center" alternateImage="pause" imageScaling="axesIndependently" inset="2" id="554">
+                                        <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="play" imagePosition="overlaps" alignment="center" alternateImage="pause" imageScaling="axesIndependently" inset="2" id="554">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -854,7 +854,7 @@
                                     <button id="1014">
                                         <rect key="frame" x="110" y="2" width="24" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                        <buttonCell key="cell" type="bevel" title="next-episode" bezelStyle="regularSquare" image="next-episode" imagePosition="only" alignment="center" imageScaling="axesIndependently" inset="2" id="1015">
+                                        <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="next-episode" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="1015">
                                             <behavior key="behavior" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -865,7 +865,7 @@
                                     <button id="1017">
                                         <rect key="frame" x="2" y="2" width="24" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <buttonCell key="cell" type="bevel" title="prev-episode" bezelStyle="regularSquare" image="prev-episode" imagePosition="only" alignment="center" imageScaling="axesIndependently" inset="2" id="1018">
+                                        <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="prev-episode" imagePosition="overlaps" alignment="center" imageScaling="axesIndependently" inset="2" id="1018">
                                             <behavior key="behavior" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
